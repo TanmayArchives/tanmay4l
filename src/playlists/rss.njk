@@ -1,0 +1,22 @@
+---
+permalink: playlists.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>'s playlists</title>
+  <link href="https://.me/playlists.xml" rel="self"/>
+  <link href="https://.me"/>
+  <id>https://.me</id>
+  <author>
+    <name>Christian </name>
+    <email>christian@.me</email>
+  </author>
+  {%- for playlist in playlists %}
+  <entry>
+    <title>{{ playlist.name }}</title>
+    <link href="{{ playlist.url }}"/>
+    <id>{{ playlist.url }}</id>
+  </entry>
+  {%- endfor %}
+</feed>
