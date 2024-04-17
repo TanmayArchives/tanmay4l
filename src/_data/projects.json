@@ -1,0 +1,37 @@
+{
+  "opensource": [
+    {
+      "url": "https://github.com/TanmayDhobale/cmss",
+      "name": "code100x",
+      "description": "quick and painless preprocess support for new code learners"
+    },
+    {
+      "url": "https://github.com/TanmayDhobale/daily-code",
+      "name": "daily-code",
+      "description": "Learning Paths for an new dev and guidence and blogs"
+    },
+    {
+      "url": "https://github.com/code100x/github-sol-auto-dispenser",
+      "name": "github-sol-auto-dispenser",
+      "description": "Create a github app that listens to events on a PR and dispenses users funds in crypto. Use the SOL blockchain"
+    }
+  ],
+  "sites": [
+    {
+      "url": "https://tanmaydhobale.github.io/WatchFree/",  
+      "name": "freemovie v1",
+      "description": "free Netlix "
+    },
+    {
+      "url": "https://solidpull.xyz/",  
+      "name": "solidpull ",
+      "description": "A platform for developers to earn money by contributing to open-source projects."
+    },
+    {
+      "url": "https://tanmaydhobale.tech/",
+      "name": "tanmaydhobale",
+      "description": "the website of Tanmay Dhobale"
+    }
+   
+  ]
+}
